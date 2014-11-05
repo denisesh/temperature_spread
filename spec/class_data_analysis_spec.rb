@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ClassDataAnalysis do
+xdescribe ClassDataAnalysis do
   let(:data) {
     TEMPERATURE_DATA.map {|arr| TemperatureData.new(arr[0], arr[1], arr[2]) }
   }
