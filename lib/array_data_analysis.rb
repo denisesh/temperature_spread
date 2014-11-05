@@ -31,7 +31,7 @@ class ArrayDataAnalysis
     avg_temperatures = []
 
     #average_temperatures = @data.each |t| { t[1] << t[2]}
-
+#
     #"returns a array of average temperatures, on for each month"
     #expect(analyzer.average_temperatures.length).to be == 30
     #expect(analyzer.average_temperatures[0]).to be == 73.5
