@@ -6,7 +6,6 @@ class ArrayDataAnalysis
 
   def lowest_temperature
       analyzer = TEMPERATURE_DATA.min {|a,b| a[2] <=> b[2]}
-      p analyzer
       analyzer[2]
   end
 
